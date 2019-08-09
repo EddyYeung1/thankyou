@@ -1,3 +1,8 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .card-container {
   width: 700px;
   height: 500px;
@@ -5,7 +10,7 @@
   perspective: 800px;
   border-radius: 4px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .card {
   width: 100%;
@@ -14,7 +19,7 @@
   transform-style: preserve-3d;
   transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border-radius: 6px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 .card div {
@@ -28,10 +33,22 @@
   justify-content: center;
   align-items: center;
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #47525d;
+  color: #009cde;
+}
+
+.card div h1 {
+  color: #009cde;
+  text-align: center;
+  font-size: 90px;
 }
 .card .back {
+  padding-left: 20px;
+  padding-right: 20px;
   transform: rotateY(180deg);
+}
+.card .back p {
+  font-size: 30px;
+  line-height: 40px;
 }
 .card.flipped {
   transform: rotateY(180deg);
