@@ -30,11 +30,11 @@ class Input extends React.Component {
   render() {
     const config = {
       angle: 90,
-      spread: 45,
+      spread: 70,
       startVelocity: 45,
-      elementCount: 50,
+      elementCount: 100,
       dragFriction: 0.1,
-      duration: 3000,
+      duration: 9000,
       stagger: 0,
       width: "10px",
       height: "10px",
@@ -53,7 +53,7 @@ class Input extends React.Component {
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
               <p className="blurb text-left">
-                A fun little idea thank you project to show my appreciation and
+                A fun little thank you project to show my appreciation and
                 gratitude to everyone I worked with. I could not be more
                 grateful to have been part of the ICT team and to have met all
                 of you amazing people! :)
